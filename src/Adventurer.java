@@ -1,4 +1,6 @@
-public class Adventurer {
+import jdk.javadoc.internal.doclets.formats.html.markup.Entity;
+
+public class Adventurer extends Entity {
     private String name;
     private int maxHP;
     private int currentHP;
@@ -37,5 +39,7 @@ public class Adventurer {
     public String toString() {
         return "🎾";
     }
+
+
 }
 
